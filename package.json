@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "nbarinov",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "description": "my personal blog",
+  "version": "1.0.0",
+  "author": "Nikita Barinov <nikitabarinov2301@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -19,12 +20,5 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
