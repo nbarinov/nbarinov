@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "gatsby": "^2.15.14",
+    "gatsby-plugin-catch-links": "^2.1.9",
+    "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",

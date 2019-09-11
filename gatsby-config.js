@@ -5,7 +5,12 @@
  */
 
 module.exports = {
+    siteMetadata: {
+        title: 'nbarinov',
+    },
     plugins: [
         'gatsby-plugin-resolve-src',
+        'gatsby-plugin-react-helmet',
+        'gatsby-plugin-catch-links',
     ],
 };
