@@ -1,0 +1,19 @@
+.Header {
+    margin-bottom: 32px;
+}
+
+.Header__link {
+    display: inline-flex;
+    align-items: center;
+
+    color: rgb(var(--color-black));
+    text-decoration: none;
+}
+
+.Header__profile-pic {
+    width: 56px;
+    height: 56px;
+    margin-right: 8px;
+
+    border-radius: 50%;
+}
