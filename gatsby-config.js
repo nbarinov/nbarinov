@@ -12,5 +12,12 @@ module.exports = {
         'gatsby-plugin-resolve-src',
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-catch-links',
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/pages`,
+                name: 'pages',
+            },
+        }
     ],
 };
