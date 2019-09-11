@@ -3,6 +3,7 @@ import { string } from 'prop-types';
 
 import Helmet from 'react-helmet';
 import Header from 'components/Header';
+import ThemeSwitch from 'components/ThemeSwitch';
 
 import { TITLE, DESCRIPTION, KEYWORDS } from 'constants/meta';
 
@@ -19,6 +20,7 @@ const Layout = ({ title, children }) => {
                 ]} />
 
             <Header />
+            <ThemeSwitch />
             {children}
         </div>
     );
