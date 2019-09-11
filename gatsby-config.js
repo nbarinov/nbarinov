@@ -9,15 +9,21 @@ module.exports = {
         title: 'nbarinov',
     },
     plugins: [
-        'gatsby-plugin-resolve-src',
-        'gatsby-plugin-react-helmet',
+        'gatsby-plugin-resolve-src', // делает корнем директорию src
+        'gatsby-plugin-react-helmet', // позволяет модифицировать head
+        // кэширует локальные ссылки
+        // и делает pushState в window.history,
+        // чтобы браузеру не приходилост обновться страницу
         'gatsby-plugin-catch-links',
+        // указываем, откуда брать страницы md
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 path: `${__dirname}/src/pages`,
                 name: 'pages',
             },
-        }
+        },
+        // позволяет трансформировать md в html
+        'gatsby-transformer-remark',
     ],
 };
